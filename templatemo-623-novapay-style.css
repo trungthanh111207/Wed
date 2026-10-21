@@ -15,48 +15,25 @@
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  /* 1. Backgrounds (Khalfiyat al-minassa - Dark Mode) */
-  --bg: #0F1319;       /* Khalfiyya ra'isiya ghameqa jiddan */
-  --bg2: #141920;      /* Khalfiyya dyal Cards & Cards/Panels */
-  --bg3: #1A2130;      /* Khalfiyya dyal Headers & Navigation */
-  --bg4: #1E2838;      /* Khalfiyya dyal Hover & Active elements */
-
-  /* 2. Text Colors (Nusoos w-Alwan al-qira'a) */
-  --text: #E4EEF8;     /* Nass ra'isi wadih (Abyad/Azraq fatih) */
-  --text2: #8AAEC8;    /* Subtitles / Labels al-thanawiya */
-  --text3: #506070;    /* Text m'atlak (Disabled / Placeholders) */
-
-  /* 3. Borders & Grid Lines (Khutoot al-biand/Grid dyal Chart) */
-  --border: #1E3050;   /* Khutoot al-fasil al-dakhiliya */
-  --border2: #2A4060;  /* Khutoot al-itaraat al-bareza (Hover/Focus) */
-
-  /* 4. Primary & Accent Colors (Al-Azraq al-mali / Indicators) */
-  --sky: #4A9EE8;      /* Laun ra'isi dyal Buttons & Active tabs */
-  --sky2: #7EC8F0;     /* Highlights & Hovers */
-  --sky3: #2A6AAA;     /* Secondary buttons / Active states */
-  --sky4: #0D2A44;     /* Khalfiyat al-3anaseer al-mukhtara (Selected items) */
-
-  /* 5. Stock Trading Status Colors (Al-alwan al-asasiya l-al-as-ham) */
-  
-  /* Up / Profit / Bullish (Tasa'ud / Irtefa3) */
-  --green: #26A69A;    /* Akhdar al-boursa al-mi3yari (TradingView Green) */
-  --green-bg: rgba(38, 166, 154, 0.15); /* Khalfiyya khadra khafifa */
-
-  /* Down / Loss / Bearish (Inkhifad / Nuzool) */
-  --red: #EF5350;      /* Ahmar al-boursa al-mi3yari (TradingView Red) */
-  --red-bg: rgba(239, 83, 80, 0.15);    /* Khalfiyya hamra khafifa */
-
-  /* Ceiling Price (Gia tran - A'la si'r munsam) */
-  --purple: #AB47BC;   /* Banafseji dyal al-had al-a'la */
-
-  /* Floor Price (Gia san - Adna si'r munsam) */
-  --cyan: #26C6DA;     /* Azraq samawi/Siyan dyal al-had al-adna */
-
-  /* Reference / Unchanged (Gia tham chieu / Thabat) */
-  --yellow: #FBC02D;   /* Asfar dyal al-si'r al-marji'i */
-
-  /* Average Price (Gia trung binh) */
-  --white: #FFFFFF;    /* Abyad dyal al-si'r al-mutawassit */
+  --bg:#0F1319;
+  --bg2:#141920;
+  --bg3:#1A2130;
+  --bg4:#1E2838;
+  --sky:#4A9EE8;
+  --sky2:#7EC8F0;
+  --sky3:#2A6AAA;
+  --sky4:#0D2A44;
+  --text:#E4EEF8;
+  --text2:#8AAEC8;
+  --text3:#506070;
+  --border:#1E3050;
+  --border2:#2A4060;
+  --green:#3DCC8E;
+  --red:#E85A5A;
+  --nav-h:68px;
+  --silk:cubic-bezier(0.16,1,0.3,1);
+  --silk-fast:cubic-bezier(0.25,1,0.4,1);
+  --max-w:1280px;
 }
 html{scroll-behavior:smooth}
 body{
