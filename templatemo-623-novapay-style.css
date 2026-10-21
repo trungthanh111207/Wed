@@ -15,8 +15,8 @@
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#0F1319;
-  --bg2:#141920;
+  --bg:#13190f;
+  --bg2:#172014;
   --bg3:#1A2130;
   --bg4:#1E2838;
   --sky:#4A9EE8;
